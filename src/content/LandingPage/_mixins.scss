@@ -1,0 +1,7 @@
+@use './node_modules/@carbon/react/scss/spacing' as *;
+@use './node_modules/@carbon/react/scss/theme' as *;
+
+@mixin landing-page-background() {
+  background-color: $layer-01;
+  position: relative;
+}
